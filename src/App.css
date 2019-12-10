@@ -1,22 +1,81 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.App{
+  background:url(https://image.freepik.com/vecteurs-libre/terre-technologie-fond-connexion-reseau_1017-17267.jpg);
+  border-radius: 20px;
   color: white;
-}
-
-.App-link {
-  color: #09d3ac;
-}
+  background-repeat: no-repeat;
+  background-size: cover;
+  width:46%;
+  margin-top: 20px;
+  
+  }
+  .text-card{
+    float:  right;
+    padding-right: 40px;
+    padding-top: 10px;
+  }
+  .chip-card img{
+    width:20%;
+    padding-left: 20px;
+    padding-top: 60px;
+  }
+  .num-one{
+    background-color:rgba(207, 250, 89, 0.067);
+    color:rgba(239, 255, 17, 0.932);
+    padding-left:20px;
+    font-size:40px;
+  }
+  .main-container{
+    display: flex;
+    align-items: center;
+  }
+  .logo-card{
+    width:30%;
+    margin-left: 50px;
+  }
+  .numbers{
+    width:70%;
+  }
+  .logo-card img{
+  height:100px;
+   
+  }
+  .info_expiry{
+    display:flex;
+    flex-direction: column;
+  }
+  .info-label{
+       display: flex;
+      align-items: center;
+      margin-top: -30px;
+    
+  }
+    
+  
+  .card-num{
+    padding-left:20px; 
+  }
+  .card-name{
+    padding-bottom:20px; 
+    padding-left:20px; 
+    
+  }
+  .mon-th{
+   
+    font-size: 10px;
+    margin-left: 38px;
+  }
+  .num{
+    font-size:20px;
+  }
+  .valid{
+   font-size: 10px; 
+  }
+  .credit-card-info {
+    margin-top: -48px;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+  }
+  .chip-card {
+    margin-bottom: -56px;
+  }
